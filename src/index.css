@@ -1,0 +1,102 @@
+.product-image {
+  width: 100px;
+  height: auto;
+}
+
+.table {
+  width: 100%;
+}
+
+/* .App {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+} */
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+td,
+th {
+  padding: 10px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* App.css */
+.App {
+  background-color: #f8f9fa;
+  padding-top: 20px;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #333;
+}
+
+.filters {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  width: 80px;
+  height: auto;
+}
+
+.custom-form {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.form-input {
+  display: block;
+  width: 90%;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #275efe;
+  box-shadow: 0 0 0 0.2rem rgba(39, 94, 254, 0.25);
+}
+
+@media (max-width: 768px) {
+    .filters {
+      margin-bottom: 20px;
+    }
+  
+    .table-responsive {
+      overflow-x: auto;
+    }
+  }
